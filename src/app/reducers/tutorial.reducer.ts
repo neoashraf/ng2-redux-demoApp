@@ -4,7 +4,7 @@ import * as TutorialActions from './../actions/tutorial.action';
 
 const initialState: Tutorial = {
     name: 'xyz',
-    url: 'http://xyz.com'
+    url: 'https://www.udemy.com/'
 }
 
 export function reducer(state: Tutorial[] = [initialState], action: TutorialActions.Actions) {

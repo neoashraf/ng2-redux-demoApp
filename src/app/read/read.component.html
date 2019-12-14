@@ -1,1 +1,8 @@
-<p>read works!</p>
+<div>
+    <h3>Tutorials</h3>
+    <ul>
+        <li *ngFor="let tutorial of tutorials | async">
+            <a href="{{tutorial.url}}" target="_blank">{{tutorial.name}}</a>
+        </li>
+    </ul>
+</div>
