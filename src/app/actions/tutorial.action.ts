@@ -17,4 +17,3 @@ export class RemoveTutorial implements Action {
 }
 
 export type Actions = AddTutorial | RemoveTutorial;
-
