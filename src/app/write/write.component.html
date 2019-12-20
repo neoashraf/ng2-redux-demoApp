@@ -1,0 +1,5 @@
+<form #addTutForm="ngForm" (ngSubmit)="addTutorial(addTutForm)">
+    <input ngModel name="name" required>
+    <input ngModel name="url" required>
+    <button type="submit">Add Tutorial</button>
+</form>

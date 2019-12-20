@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 
 import { StoreModule } from '@ngrx/store'
@@ -15,6 +15,7 @@ import { reducers } from './app.state';
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     StoreModule.forRoot(reducers)
   ],
   providers: [],
